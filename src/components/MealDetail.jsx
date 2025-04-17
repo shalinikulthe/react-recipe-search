@@ -4,7 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 const MealDetail = () => {
   const { id } = useParams();
   const [info, setInfo] = useState();
-  console.log(id);
   const navigate = useNavigate();
 
   const getInfo = async () => {
